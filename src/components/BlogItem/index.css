@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 100%;
+  justify-content: flex-start;
+}
+.blog-item-content {
+  display: flex;
+  flex-direction: column;
+}
+.user-container {
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.avatar {
+  width: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.heading {
+  font-size: 20px;
+}
+.desc {
+  color: #8e8e8e;
+}
